@@ -1,0 +1,364 @@
+<resources>
+    <string name="app_name">TMC Course Finder</string>
+
+    <string name="navigation_course">Courses</string>
+    <string name="navigation_favorite">Favorites</string>
+    <string name="navigation_about">About us</string>
+    <string name="navigation_contact">Contact us</string>
+
+    <string name="toolbar_main_course">TMC Course Finder</string>
+    <string name="toolbar_main_favorite">Favorite Courses</string>
+    <string name="toolbar_main_about">About us</string>
+    <string name="toolbar_main_contact">Contact us</string>
+
+    <string name="toolbar_favorite">Saved favorite courses</string>
+
+    <string name="toolbar_course_discipline">Course by Discipline</string>
+    <string name="toolbar_course_institution">Course by Institution</string>
+
+    <string name="toolbar_course_detail">About the course</string>
+
+    <string name="contact_hint_name">Full Name</string>
+    <string name="contact_hint_email">Email</string>
+    <string name="contact_hint_mobile">Mobile</string>
+    <string name="contact_hint_inquiry">Your inquiry ?</string>
+    <string name="contact_button">Mail to TMC</string>
+
+    <string name="about_image_description">About TMC campus</string>
+    <string name="course_image_description">Old TMC campus</string>
+
+    <string name="about_link_history">http://www.tmc.edu.sg/about-us/our-history/</string>
+    <string name="about_link_welcome">http://www.tmc.edu.sg/about-us/welcome-message/</string>
+    <string name="about_link_vision">http://www.tmc.edu.sg/about-us/vision-mission-and-brand/</string>
+    <string name="about_link_why">http://www.tmc.edu.sg/about-us/why-tmc-academy/</string>
+    <string name="about_link_more">http://www.tmc.edu.sg/about-us/</string>
+
+    <string name="about_button_history">Our History</string>
+    <string name="about_button_welcome">Welcome Message</string>
+    <string name="about_button_vision">Vision, Mission and Brand</string>
+    <string name="about_button_why">Why choose TMC \?</string>
+    <string name="about_button_more">More...</string>
+
+    <string name="favorite_saved_course">Saved courses</string>
+
+    <string name="course_label">SEARCH COURSES BY:</string>
+    <string name="course_button_discipline">Discipline</string>
+    <string name="course_button_institution">Institution</string>
+
+    <string name="course_detail_button">Further detail</string>
+
+    <string name="course_discipline_accounting">Accounting &amp; Finance</string>
+    <string name="course_discipline_business">Business</string>
+    <string name="course_discipline_hospitality">Hospitality &amp; Tourism</string>
+    <string name="course_discipline_infocomm">Infocomm Technology</string>
+    <string name="course_discipline_mass_comm">Mass Communication</string>
+    <string name="course_discipline_psychology">Psychology</string>
+
+    <string name="course_institution_tmc">TMC Academy</string>
+    <string name="course_institution_northampton">University of Northampton - UK</string>
+    <string name="course_institution_gloucestershire">University of Gloucestershire - UK</string>
+    <string name="course_institution_greenwich">University of Greenwich - UK</string>
+
+    <string name="course_name0">Diploma in Accounting and Finance</string>
+    <string name="course_name1">Bachelor of Science (Honours) in Accounting and Finance</string>
+    <string name="course_name2">Bachelor of Science (Honours) \n International Accounting (Top Up)</string>
+    <string name="course_name3">Post-Graduate Diploma in Accounting \n – A Preparatory Course for UMKC Master of Science in Accounting (MSA)</string>
+    <string name="course_name4">Post-Graduate Diploma in Finance \n – A Preparatory Course for UMKC Master of Science in Finance (MSF)</string>
+    <string name="course_name5">Bachelor of Arts (Honours) in Accounting and Financial Management Studies (Top-up)</string>
+    <string name="course_name6">Bachelor of Arts (Honours) \n Business and Management (Top-Up)</string>
+    <string name="course_name7">Bachelor of Arts (Honours) \n Marketing Management (Top-Up)</string>
+    <string name="course_name8">Bachelor of Arts (Honours) in \n Business Management and Strategy (Top-up)</string>
+    <string name="course_name9">Bachelor of Arts (Honours) \n International Tourism Management (Top Up)</string>
+    <string name="course_name10">Higher Diploma in Hospitality and Tourism Management</string>
+    <string name="course_name11">Higher Diploma in Tourism, Hospitality and Leisure Management</string>
+    <string name="course_name12">International Diploma in Hospitality</string>
+    <string name="course_name13">Bachelor of Science (Honours) Computing (Top-up)</string>
+    <string name="course_name14">Higher Diploma in Infocomm Technology</string>
+    <string name="course_name15">International Diploma in Information Technology</string>
+    <string name="course_name16">Higher Diploma in Mass Communication</string>
+    <string name="course_name17">International Diploma in Mass Communication</string>
+    <string name="course_name18">Bachelor of Science (Honours) \n Psychology with Counselling (Top-up)</string>
+    <string name="course_name19">Bachelor of Science (Honours) Psychology (Top-Up)</string>
+    <string name="course_name20">Graduate Diploma of Psychology</string>
+    <string name="course_name21">Higher Diploma in Psychology with Counselling</string>
+
+    <string name="course_detail0">
+        The main aim is to provide the students with the necessary theoretical knowledge
+        and the practical aspects to meet career opportunities in the accounting and financial sectors of the economy.
+    </string>
+    <string name="course_detail1">
+        This accounting and finance degree is your step into the vast industry.
+
+        \n\n Accountants and finance specialists have a central role in all types of organisations;
+        public and private sector, within industry and commerce.
+        The accountant has become a key player in the provision of management information to enable successful decision making,
+        planning and control. Accounting is more than just a computational skill and the programme will
+        develop your ability to analyse and to evaluate real life situations and effectively communicate your views and opinions.
+        You will consider practical techniques involved in accounting and finance,
+        and develop skills to critically analyse the theory behind these techniques.
+
+        \n\n The Accounting and Finance Division is one of only six universities to have courses accredited by AAT
+        (Association of Accounting Technicians). This means that once you graduate you will be able to apply for AAT membership,
+        providing you with a professional qualification to enhance your employability.
+
+        \n\n The Division has also retained its accreditations from ACCA
+        (Association of Chartered Certified Accountants – 8 exemptions), CIMA (Chartered Institute of Management Accountants),
+        ICAEW (Institute of Chartered Accountants in England and Wales) and AIA (Association of International Accountants).
+    </string>
+    <string name="course_detail2">
+        &lt;Awarded by The University of Northampton&gt;
+
+        \n\n The accounting degree awarded by The University of Northampton provides the learners the knowledge within
+        which a financial services institution or finance function operates and the financial boundaries to
+        which any business operates. In addition the learner will develop a sound critical understanding of the academic foundations,
+        which underpin key aspects of accounting and financial management.
+        It provides a framework for developing accounting as well as business skills and knowledge needed at all management levels.
+        This course is designed for students seeking careers in accounting and financial industry.
+    </string>
+    <string name="course_detail3">
+        This programme is designed for students with little or no undergraduate accounting coursework.
+        It provides comprehensive coverage of accounting topics necessary for a professional career in the field.
+        Completion of the programme also qualifies students for the various examinations leading to professional certification.
+    </string>
+    <string name="course_detail4">
+        The Post-Graduate Diploma in Finance (PGDF) is for students and executives seeking specialized training
+        in finance in preparation for Master of Science in Finance at University of Missouri –
+        Kansas City and the financial certifications such as the Chartered Financial Analyst (CFA),
+        and Certified Financial Planner (CFP).
+    </string>
+    <string name="course_detail5">
+        &lt;Awarded by University of Gloucestershire&gt;
+
+        \n\n This degree offers graduates the opportunity to either fast-track their professional accountancy qualification
+        or to embark on a career in business. The programme gives graduates a firm foundation for a career in accounting/finance,
+        which enables them to make an immediate and effective contribution to the organisation for which they work.
+    </string>
+    <string name="course_detail6">
+        &lt;Awarded by The University of Northampton&gt;
+
+        \n\n The business degree awarded by The University of Northampton covers key aspects of business and management practice
+        and theory and emphasizes the development of individual and group skills.
+        Students can follow a range of pathways to meet their individual interests and career aspirations including marketing,
+        finance, human resources and general business.This course is designed for students seeking careers in
+        marketing and business industries.
+
+        \n\n Course aims to:
+
+        \n\t &#8226; Become increasingly independent in their learning style, thereby enhancing their life-long learning skills.
+        \n\t &#8226; Gain a deep understanding of organisations,their management and the changing external environment
+        \n\t &#8226; Be able to contribute effectively in a range of operational and/or strategic contexts in business on completion of the programme and to target careers in one specialist area
+        \n\t &#8226; Develop both the knowledge and the ability to use a range of research techniques.
+    </string>
+    <string name="course_detail7">
+        &lt;Awarded by The University of Northampton&gt;
+
+        \n\n The degree awarded by The University of Northampton offers graduates the opportunity either to
+        fast-track their professional marketing management qualification, or to embark on a career in business,
+        secure in the knowledge that their specialist skills in marketing management.
+        This course provides key insights into marketing practice and theory in a range of managerial contexts.
+        The focus is on the planning and decision-making processes that are essential to good marketing management.
+        The course is designed to cover the core knowledge and skills needed by the modern, professional marketer,
+        together with a range of options to allow specialist interests to be pursued.
+
+        \n\n Course aims to:
+
+        \n\t &#8226; Become increasingly independent in their learning style, thereby enhancing their life-long learning skills and employability.
+        \n\t &#8226; Gain a deep understanding of marketing, its management and the changing marketing environment.
+        \n\t &#8226; Be able to contribute effectively in a range of marketing operational and/or strategic contexts on completion of the programme and to target careers in the profession of marketing.
+        \n\t &#8226; Develop both the knowledge and the ability to use a range of marketing practitioner and research techniques.
+        \n\t &#8226; Develop a number of key intellectual and transferable skills.
+    </string>
+    <string name="course_detail8">
+        &lt;Awarded by University of Gloucestershire&gt;
+
+        \n\n This degree course provides a route to complete an honours degree in one year in business related discipline.
+        Successful completion of the degree programme would certainly help students to propel their career forward,
+        typically into management roles, or to develop more advanced skills through further study.
+    </string>
+    <string name="course_detail9">
+        &lt;Awarded by The University of Northampton&gt;
+
+        \n\n This tourism degree programme has been specifically designed to meet the needs of industry.
+        Students are encouraged to take a critical and analytical perspective to their understanding of tourism business theory
+        combined with a proactive business development approach throughout.
+
+        \n\n The aims of the award are to develop in learners:
+
+        \n\t &#8226; A broad knowledge of the environment within which tourism businesses operate, whilst developing a sound understanding of the academic foundations which underpin key industry disciplines.
+        \n\t &#8226; Knowledge and transferable skills in order that they may present themselves as marketable, well-educated and competent individuals, who are able to succeed in a wide range of tourism career opportunities.
+        \n\t &#8226; Relevant skills in order that they may have the ability to manage complex situations professionally.
+        \n\t &#8226; Knowledge and intellectual ability that they may confidently express themselves and seek to become lifelong learners
+    </string>
+    <string name="course_detail10">
+        TMC’s Higher Diploma in Hospitality and Tourism Management has been specifically designed to develop the skills and knowledge required to be a competent
+        and effective manager in this exciting industry.
+
+        \n\n**Industrial Attachment (IA)
+        \n Paid internship; if the IA cannot be completed due to unsuccessful placement, students will study two additional modules as below:
+
+        \n\t &#8226; Hospitality Operations Management
+        \n\t &#8226; Communication Management in the Hospitality Industry
+    </string>
+    <string name="course_detail11">
+        This course has NO Industrial Attachment. Students need to complete 16 modules or 12 modules for Advanced Standing before they can graduate from the course.
+    </string>
+    <string name="course_detail12">
+        The aim of the International Diploma in Hospitality course is to provide students with the basic knowledge in hospitality.
+        This course also provides students with the necessary foundation for undergraduate studies in hospitality,
+        while providing students with career opportunities in the leisure, hospitality and tourism sectors.
+
+        \n\n Course modules:
+
+        \n\t &#8226; Principles of Business Communication
+        \n\t &#8226; Principles and Practice of Facilities Management
+        \n\t &#8226; Principles and Practice of Beverage Services
+        \n\t &#8226; Information Communication Technology
+
+        \n\n Course assessment:
+        \n Assessment of the modules includes examinations, assignments, projects, presentations, class tests, and/or practical tests
+
+        \n\n Teaching and learning:
+        \n There will be a combination of guided studies, lectures, tutorials, seminars, presentations, projects, and computer laboratories sessions.
+    </string>
+    <string name="course_detail13">
+        &lt;Awarded by University of Greenwich&gt;
+
+        \n\n This degree is designed as a tailor-made ‘top-up’ programme for holders of relevant Diploma and Higher Diploma qualifications from
+        the School of Computing &amp; Mathematical Sciences (CMS). The degree provides students with an up-to-date approach to the recent development
+        in computing and current market trends.
+        \n\n It helps students understand the requirements for web based applications, allowing students to develop skills such as analysis and modeling techniques. It develops a better understanding of hardware and software capabilities and problem-solving approaches to software development.
+    </string>
+    <string name="course_detail14">
+        The Higher Diploma in Infocomm Technology (HDICT) provides students with the necessary theoretical knowledge and practical skills to
+        meet excellent career opportunities in the Infocomm Technology (ICT) industry.
+        It aims to develop and produce graduates who are well-versed in the critical disciplines required in the field of computing and IT.
+        They will possess the necessary personal qualities and technical skills to excel as IT professionals.
+
+        \n\n The course aims to achieve an international standard of high quality training which will lead to a universally recognised qualification,
+        enabling graduates to pursue undergraduate programmes at top universities.
+
+        \n\n The objectives of the Higher Diploma in Infocomm Technology are to:
+
+        \n\t &#8226; design and implement high quality and robust software products
+        \n\t &#8226; professionally analyse and design information systems
+        \n\t &#8226; understand, evaluate, propose and implement computerised solutions to meet varied levels of user requirements
+        \n\t &#8226; demonstrate effective inter-personal skills when working in groups or leading teams
+        \n\t &#8226; professionally communicate and present proposals, findings and results
+        \n\t &#8226; pursue higher level studies at universities
+    </string>
+    <string name="course_detail15">
+        The aim of the International Diploma in Information Technology course is to provide students with the basic knowledge in information technology.
+        This course also provides students with the necessary foundation for undergraduate studies in information technology,
+        while providing students with career opportunities in the IT/IS area in financial, manufacturing and commercial sectors.
+
+        \n\n Course modules:
+        \n\t &#8226; Principles of Business Communication
+        \n\t &#8226; Basic Computer Principles
+        \n\t &#8226; Java Programming
+        \n\t &#8226; Information Communication Technology
+
+        \n\n Course assessment:
+        \n Assessment of the modules includes examinations, assignments, projects, presentations, class tests, and/or practical tests
+
+        \n\n Teaching and learning:
+        \n There will be a combination of guided studies, lectures, tutorials, seminars, presentations, projects, and computer laboratories sessions.
+    </string>
+    <string name="course_detail16">
+        The Higher Diploma in Mass Communications provides students with the necessary theoretical knowledge and practical skills
+        in the interdisciplinary fields of mass communications, i.e. journalism, film, and multimedia.
+        It equips students with general transferable skills which are of relevance to a wide range of careers in the field of mass communications.
+        The Higher Diploma is designed to help develop students’ analytical techniques and problem solving skills, enabling them to evaluate evidence,
+        arguments and assumptions in the field of mass communications.
+    </string>
+    <string name="course_detail17">
+        The aim of the International Diploma in Mass Communication course is to provide students with the basic knowledge in Mass Communication.
+        This course also provides students with the necessary foundation for undergraduate studies in mass communications,
+        while providing students with career opportunities in the film, journalism &amp; media sectors.
+
+        \n\n Course modules:
+        \n\t &#8226; Principles of Business Communication
+        \n\t &#8226; Principles of Mass Communication
+        \n\t &#8226; Principles of the Media
+        \n\t &#8226; Information Communication Technology
+
+        \n\n Course assessment:
+        \n Assessment of the modules includes examinations, assignments, projects, presentations, class tests, and/or practical tests
+
+        \n\n Teaching and learning:
+        \n There will be a combination of guided studies, lectures, tutorials, seminars, presentations, projects, and computer laboratories sessions
+    </string>
+
+    <string name="course_detail18">
+        This psychology with counselling degree enables critical understanding and analysis of human behaviour, thought and emotions.
+        Students will Learn scientific skills that are transferable to careers outside Psychology. This is a one year programme which offers learners the opportunity to:
+
+        \n\t &#8226; Provide a critical understanding of psychological data relating to human behavior and experience.
+        \n\t &#8226; Equip students with the highly desirable skills and knowledge for employability or to provide the foundations for further study towards a career in counselling psychology or related professions.
+        \n\t &#8226; Develop generic and subject specific skills for example; analytic, interpersonal and research skills that are relevant to a range of careers.
+        \n\t &#8226; Foster a desire for life-long learning.
+
+        \n\n Students are able to apply to the British Psychological Society for individual membership on graduation from this course.
+    </string>
+
+    <string name="course_detail19">
+        &lt;Awarded by The University of Northampton&gt;
+
+        \n\n This psychology degree enables critical understanding and analysis of human behaviour, thought and emotions.
+        Students will learn scientific skills that are transferable to careers outside Psychology. The course tackle psychological issues in work, education,
+        physical and mental health, crime, etc. This is a one year programme which offers learners the opportunity to:
+
+        \n\t &#8226; Provide a critical understanding of psychological data relating to human behaviour and experience.
+        \n\t &#8226; Develop generic and subject specific skills for example; analytic, interpersonal and research skills that are relevant to a range of careers.
+        \n\t &#8226; Foster a desire for life-long learning.
+        \n\n **Students are able to apply to the British Psychological Society for individual membership on graduation from this course.
+    </string>
+
+    <string name="course_detail20">
+        &lt;Awarded by TMC Academy&gt;
+
+        \n\n The Graduate Diploma of Psychology is suitable for those who wish to study psychology from a CPE-accredited institution
+        after having completed an undergraduate degree in another discipline. The Graduate Diploma of Psychology syllabus covers developmental,
+        biological, cognitive, social, and abnormal psychology, as well as research design and analysis, and personality and psychological testing.
+        This course of study therefore provides students with a comprehensive theoretical background and relevant helping skills to understand mental processes
+        and human behaviour.
+    </string>
+
+    <string name="course_detail21">
+        Psychology is a science which answers questions about human and animal behavior and cognition.
+        The Higher Diploma in Psychology with Counselling provides students with a comprehensive theoretical background and research skills
+        relevant to studying mental processes and human behaviour. The programme covers a broad range of empirical and practical areas of psychology
+        and offers the students an opportunity to begin the development of basic counselling skills.
+
+        \n\n Singapore Psychological Society has agreed that students studying for Higher Diploma in Psychology with Counselling
+        at TMC Academy can become members of the Society.  TMC Academy and SPS signed a memorandum of understanding at
+        the Singapore Psychological Society Annual General Meeting on Saturday 28th March 2015 to formally recognise the agreement.
+        SPS was represented by President Ms Clare Yeo and TMC Academy was represented by Dr Chin Kon Yuen, Executive Chairman.
+        Dr Chin said, “I am absolutely delighted to sign this agreement with Singapore Psychological Society
+        and I look forward to many of our Higher Diploma in Psychology with Counselling and many of our Psychology degree students becoming members of the SPS.
+        More people are choosing to study Psychology in Singapore and at TMC we look forward to growing the membership of SPS
+        through all our Psychology diploma courses and Psychology degrees.”
+    </string>
+
+    <string name="course_link0">http://www.tmc.edu.sg/course/diploma-in-accounting-and-finance/</string>
+    <string name="course_link1">http://www.tmc.edu.sg/course/bachelor-of-science-honours-in-accounting-and-finance/</string>
+    <string name="course_link2">http://www.tmc.edu.sg/course/bachelor-of-science-honours-international-accounting-top-up/</string>
+    <string name="course_link3">http://www.tmc.edu.sg/course/post-graduate-diploma-in-accounting-a-preparatory-course-for-umkc-master-of-science-in-accounting-msa/</string>
+    <string name="course_link4">http://www.tmc.edu.sg/course/post-graduate-diploma-in-finance-a-preparatory-course-for-umkc-master-of-science-in-finance-msf/</string>
+    <string name="course_link5">http://www.tmc.edu.sg/course/bachelor-of-arts-honours-in-accounting-and-financial-management-studies-top-up/</string>
+    <string name="course_link6">http://www.tmc.edu.sg/course/bachelor-of-arts-honours-business-and-management-top-up/</string>
+    <string name="course_link7">http://www.tmc.edu.sg/course/bachelor-of-arts-honours-marketing-management-top-up/</string>
+    <string name="course_link8">http://www.tmc.edu.sg/course/z-bachelor-of-arts-honours-in-business-management-and-strategy-top-up/</string>
+    <string name="course_link9">http://www.tmc.edu.sg/course/bachelor-of-arts-honours-international-tourism-management-top-up/</string>
+    <string name="course_link10">http://www.tmc.edu.sg/course/higher-diploma-in-hospitality-and-tourism-management/</string>
+    <string name="course_link11">http://www.tmc.edu.sg/course/higher-diploma-in-tourism-hospitality-and-leisure-management/</string>
+    <string name="course_link12">http://www.tmc.edu.sg/course/international-diploma-in-hospitality/</string>
+    <string name="course_link13">http://www.tmc.edu.sg/course/bachelor-of-science-honours-computing-top-up/</string>
+    <string name="course_link14">http://www.tmc.edu.sg/course/higher-diploma-in-infocomm-technology/</string>
+    <string name="course_link15">http://www.tmc.edu.sg/course/international-diploma-in-information-technology/</string>
+    <string name="course_link16">http://www.tmc.edu.sg/course/higher-diploma-in-mass-communication/</string>
+    <string name="course_link17">http://www.tmc.edu.sg/course/international-diploma-in-mass-communication/</string>
+    <string name="course_link18">http://www.tmc.edu.sg/course/bachelor-of-science-honours-psychology-with-counselling-top-up/</string>
+    <string name="course_link19">http://www.tmc.edu.sg/course/bachelor-of-science-honours-psychology-top-up/</string>
+    <string name="course_link20">http://www.tmc.edu.sg/course/graduate-diploma-of-psychology/</string>
+    <string name="course_link21">http://www.tmc.edu.sg/course/higher-diploma-in-psychology-with-counselling/</string>
+</resources>
