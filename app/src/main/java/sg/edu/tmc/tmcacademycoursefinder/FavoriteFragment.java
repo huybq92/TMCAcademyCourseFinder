@@ -1,7 +1,6 @@
 package sg.edu.tmc.tmcacademycoursefinder;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -15,11 +14,10 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import static android.preference.PreferenceManager.getDefaultSharedPreferences;
 
 public class FavoriteFragment extends Fragment implements OnChildClickListener {
-    //Variable Declaration
+    //Variable Declarations
     private Map<String, ?> allPrefsKey;
     private SharedPreferences sharedPreferences;
     private ExpandableListView expListView;
@@ -32,7 +30,7 @@ public class FavoriteFragment extends Fragment implements OnChildClickListener {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.favorite_content, container, false);
 
-        // Get the Expandable List View object $ set Listener
+        // Get the Expandable List View object & set Listener
         expListView = (ExpandableListView) view.findViewById(R.id.listView);
         expListView.setOnChildClickListener(this);
 

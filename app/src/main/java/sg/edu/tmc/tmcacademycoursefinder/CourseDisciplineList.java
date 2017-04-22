@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
@@ -31,8 +31,8 @@ public class CourseDisciplineList extends AppCompatActivity implements OnChildCl
         // Get the toolbar and set properties
         toolBar = (Toolbar) findViewById(R.id.toolbar_course_discipline);
         setSupportActionBar(toolBar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Preparing list data
         prepareListData();
@@ -217,4 +217,15 @@ public class CourseDisciplineList extends AppCompatActivity implements OnChildCl
 
         return false;
     } //onChildClick() ends
+
+    @Override
+    // UP button of the Toolbar acts as Back button
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+        return(super.onOptionsItemSelected(item));
+    }
 }

@@ -16,7 +16,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import static android.preference.PreferenceManager.getDefaultSharedPreferences;
 
 public class CourseDetail extends AppCompatActivity implements View.OnClickListener {
@@ -49,8 +48,8 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
         //Get the shared preferences file named 'MyPrefs'
         sharedPreferences = getDefaultSharedPreferences(this);
         //Check if the course is already saved.
-        // If so, set isSaved=true and icon to ic_navigation_favorite.
-        // Otherwise, isSaved=false and set icon to heart_outline
+        // If so, set isSaved=true and change icon to ic_navigation_favorite.
+        // Otherwise, isSaved=false and change icon to heart_outline
         if (sharedPreferences.contains(course_title)) {
             fab.setImageResource(R.drawable.ic_navigation_favorite);
         } else { //If not
@@ -60,8 +59,8 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
         // Get the toolbar and set properties
         toolBar = (Toolbar) findViewById(R.id.toolbar_course_detail);
         setSupportActionBar(toolBar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Get the TextViews and set text
         course_title_view = (TextView) findViewById(R.id.course_title);
@@ -112,13 +111,13 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
                 if (sharedPreferences.contains(course_title)) {
                     SharedPreferences.Editor editor = sharedPreferences.edit(); //get editor
                     editor.remove(course_title); //remove key/value
-                    editor.commit(); //apply change
+                    editor.apply(); //apply change
                     fab.setImageResource(R.drawable.heart_outline);// change icon to favorite
                     Snackbar.make(coordinatorLayout, "Unsaved", Snackbar.LENGTH_SHORT).show();
                 } else { //If not, add to SharedPreferences to save to favorites
                     SharedPreferences.Editor editor = sharedPreferences.edit(); //get editor
                     editor.putBoolean(course_title, true);// add a new key/value. The value doesn't matter
-                    editor.commit();// apply change
+                    editor.apply();// apply change
                     fab.setImageResource(R.drawable.ic_navigation_favorite); //change icon to un-favorite
                     Snackbar.make(coordinatorLayout, "Saved successfully", Snackbar.LENGTH_SHORT).show();
                 }
@@ -136,14 +135,13 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    // Cause the UP button of the Toolbar act as Back button
+    // UP button of the Toolbar acts as Back button
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
                 return true;
         }
-
         return(super.onOptionsItemSelected(item));
     }
 }

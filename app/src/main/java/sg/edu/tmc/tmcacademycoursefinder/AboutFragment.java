@@ -39,11 +39,11 @@ public class AboutFragment extends Fragment implements OnClickListener {
 
     //Open a web page of specified URL
     public void openWebPage(String url) {
-        Uri webpage = Uri.parse(url);
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        Uri website = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, website);
 
-        //Using Intent Chooser to allow user to choose a web browser to open the webpage if there are more than 2 browsers
-        Intent intentChooser = Intent.createChooser(intent, "Open webpage using...");
+        //Using Intent Chooser to allow user to choose a web browser to open the website if there are more than 2 browsers
+        Intent intentChooser = Intent.createChooser(intent, "Open website using...");
         if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
             startActivity(intentChooser);
         }
@@ -85,4 +85,4 @@ public class AboutFragment extends Fragment implements OnClickListener {
         NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
-}
+} // Class ends

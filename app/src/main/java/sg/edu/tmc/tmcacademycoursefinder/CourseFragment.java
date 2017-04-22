@@ -25,7 +25,7 @@ public class CourseFragment extends Fragment implements OnClickListener {
         return view;
     }
 
-    //Listener to handle button's clicks
+    // Handle button's clicks
     @Override
     public void onClick(View view)
     {
@@ -43,5 +43,5 @@ public class CourseFragment extends Fragment implements OnClickListener {
                 startActivity(intent2);
                 break;
         }
-    }//onClick() ends
-}
+    }
+}// Class ends

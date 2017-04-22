@@ -14,11 +14,12 @@ public class SplashScreen extends AppCompatActivity {
         //Creates an Intent to start MainActivity, then destroys itself
         final Intent intent = new Intent(this, MainActivity.class);
 
-        //Set a timer to delay 1,5 SECONDS before moving to MainActivity
+        //Set a timer to delay 2 SECONDS before moving to MainActivity
         new CountDownTimer(2000,1000) {
             public void onTick(long millisUntilFinished) {
             }
 
+            // Call when timer is over
             public void onFinish() {
                 //Start MainActivity when the timer ends
                 startActivity(intent);

@@ -1,10 +1,8 @@
 package sg.edu.tmc.tmcacademycoursefinder;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.app.FragmentManager;
@@ -18,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     private FragmentManager fragmentManager;
     private FragmentTransaction fragmentTransaction;
     private BottomNavigationView navigation;
-    private static String course_title;
-    private static String course_detail;
-    private static String button_link;
+    private int currentFragmentId = 1; // first fragment when the app starts is 'CourseFragment'
+
+    // Static data
     private static String[] courseList = {
             "Diploma in Accounting and Finance",
             "Bachelor of Science (Honours) in Accounting and Finance",
@@ -45,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
             "Graduate Diploma of Psychology",
             "Higher Diploma in Psychology with Counselling"
     };
-    private int currentFragmentId = 1; // first fragment when the app first run is 'CourseFragment'
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,12 +53,12 @@ public class MainActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.mipmap.ic_launcher_tmc);
         toolbar.setTitle("TMC Academy");
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar); //Set toolbar as Actionbar
 
-        //Get fragment manager
+        //Get fragment manager to change between fragments
         fragmentManager = getFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
-        //Add Fragments to the content area
+        //Add Fragments to the current MainActivity
         fragmentTransaction.add(R.id.content, new CourseFragment());
         fragmentTransaction.commit();
 
@@ -75,28 +72,22 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     //This method will be called once this activity comes foreground
-    // Here, I use it to refresh the Favorite list aster modifying
+    // I use it here to refresh the Favorite list aster modifying (adding, removing courses)
     public void onResume(){
         super.onResume();
 
         //Check if current fragment is Favorite.
         // If yes, replace with a new Favorite fragment
         // If not, ignore
-        if (currentFragmentId==2) {
+        if (currentFragmentId == 2) {
             fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.content, new FavoriteFragment());
             fragmentTransaction.commit();
         }
     }
 
-    //Return CourseList array
+    // Get the CourseList array
     public static String[] getCourseList () { return courseList; }
-    // Set all attributes
-    public static void setAllAttributes(String courseTitle, String courseDetail, String courseLink) {
-        course_title = courseTitle;
-        button_link = courseLink;
-        course_detail = courseDetail;
-    }
 
     //Create a listener for Bottom Navigation View
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -155,16 +146,11 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         }
-
     };
 
     //Method isCurrentFragment():
     // - Check if the current fragment is the one that user click on the Bottom Navigation View
     private boolean isCurrentFragment(int id) {
-        if (id == currentFragmentId) {
-            return true;
-        } else {
-            return false;
-        }
+        return id == currentFragmentId;
     }
 }
