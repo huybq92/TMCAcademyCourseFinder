@@ -77,8 +77,8 @@ public class AboutFragment extends Fragment implements OnClickListener {
         }
     } //onClick()
 
-    //This method will check the state of Internet connection.
-    //If available, return true. Otherwise, return false
+    //This method will check the state of the Internet connection.
+    //If the network is available, return true. Otherwise, return false
     private boolean isNetworkAvailable() {
         ConnectivityManager connectivityManager
                 = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
