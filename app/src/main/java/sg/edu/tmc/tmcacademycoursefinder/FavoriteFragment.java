@@ -36,9 +36,9 @@ public class FavoriteFragment extends Fragment implements OnChildClickListener {
 
         //Get shared preferences
         sharedPreferences = getDefaultSharedPreferences(this.getActivity());
-        // Get all saved course from SharedPreferences
+        // Get all saved courses from SharedPreferences
         allPrefsKey = sharedPreferences.getAll();
-        saved_course = new ArrayList<String>();
+        saved_course = new ArrayList<>();
         for (Map.Entry<String, ?> entry : allPrefsKey.entrySet()) {
             saved_course.add(entry.getKey());
         }
@@ -54,7 +54,7 @@ public class FavoriteFragment extends Fragment implements OnChildClickListener {
 
     // Preparing the list of data
     private void prepareListData(List<String> data) {
-        listDataHeader = new ArrayList<String>();
+        listDataHeader = new ArrayList<>();
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data

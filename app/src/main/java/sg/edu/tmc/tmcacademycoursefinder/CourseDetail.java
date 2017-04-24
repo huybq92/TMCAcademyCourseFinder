@@ -37,19 +37,16 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.course_detail);
 
         //Get the CoordinatorLayout object
-        // This object will be used for snackbar to prevent it from covering the Floating Action Button
+        // CoordinatorLayout helps the snackbar to prevent itself from covering the Floating Action Button
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.main_content);
 
-        //Get the Floating Action Button object and set listener to thi class
-        // ( Floating Action Button is a sub-view of CoordinatorLayout )
+        //Get the Floating Action Button object and set listener
         fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(this);
 
-        //Get the shared preferences file named 'MyPrefs'
+        //Get the default shared preferences
         sharedPreferences = getDefaultSharedPreferences(this);
         //Check if the course is already saved.
-        // If so, set isSaved=true and change icon to ic_navigation_favorite.
-        // Otherwise, isSaved=false and change icon to heart_outline
         if (sharedPreferences.contains(course_title)) {
             fab.setImageResource(R.drawable.ic_navigation_favorite);
         } else { //If not
@@ -79,7 +76,7 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
 
         //Using Intent Chooser to allow user to choose a web browser to open the webpage if there are more than 2 browsers
-        Intent intentChooser = Intent.createChooser(intent, "Open webpage using...");
+        Intent intentChooser = Intent.createChooser(intent, "Open website using...");
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intentChooser);
         }
@@ -109,15 +106,13 @@ public class CourseDetail extends AppCompatActivity implements View.OnClickListe
                 //Check if the course is already saved
                 // If already, remove it from SharedPreferences to unsave
                 if (sharedPreferences.contains(course_title)) {
-                    SharedPreferences.Editor editor = sharedPreferences.edit(); //get editor
-                    editor.remove(course_title); //remove key/value
-                    editor.apply(); //apply change
+                    //SharedPreferences.Editor editor = sharedPreferences.edit();
+                    sharedPreferences.edit().remove(course_title).apply(); //remove the course
                     fab.setImageResource(R.drawable.heart_outline);// change icon to favorite
                     Snackbar.make(coordinatorLayout, "Unsaved", Snackbar.LENGTH_SHORT).show();
                 } else { //If not, add to SharedPreferences to save to favorites
-                    SharedPreferences.Editor editor = sharedPreferences.edit(); //get editor
-                    editor.putBoolean(course_title, true);// add a new key/value. The value doesn't matter
-                    editor.apply();// apply change
+                    //SharedPreferences.Editor editor = sharedPreferences.edit();
+                    sharedPreferences.edit().putBoolean(course_title, true).apply();// add a new key/value. The value doesn't matter
                     fab.setImageResource(R.drawable.ic_navigation_favorite); //change icon to un-favorite
                     Snackbar.make(coordinatorLayout, "Saved successfully", Snackbar.LENGTH_SHORT).show();
                 }
